@@ -1,4 +1,35 @@
 <Addition>
+	<Object type="0x5f2b" id="Grave Caretaker">
+	<Class>Character</Class>
+	<Group>Halloween</Group>
+	<Enemy/>
+	<AnimatedTexture>
+		<File>chars16x16rEncounters</File>
+			<Index>87</Index>
+	</AnimatedTexture>
+	<HitSound>monster/archdemon_hit</HitSound>
+	<DeathSound>monster/archdemon_death</DeathSound>
+	<Size>150</Size>
+	<ShadowSize>100</ShadowSize>
+	<MaxHitPoints>18000</MaxHitPoints>
+	<Defense>15</Defense>
+	<StasisImmune/>
+	<Projectile id="0">
+		<ObjectId>Angry Ghost</ObjectId>
+		<Damage>55</Damage>
+		<Speed>60</Speed>
+		<LifetimeMS>1000</LifetimeMS>
+		<Size>100</Size>
+	</Projectile>
+	<Projectile id="1">
+		<ObjectId>Fire Spinner</ObjectId>
+		<Damage>55</Damage>
+		<Speed>80</Speed>
+		<LifetimeMS>800</LifetimeMS>
+		<Size>100</Size>
+		<ConditionEffect duration="2">Blind</ConditionEffect>
+	</Projectile>
+	</Object>
   <Object type="0xf00" id="Staff of Someone">
     <Class>Equipment</Class>
     <Item/>
